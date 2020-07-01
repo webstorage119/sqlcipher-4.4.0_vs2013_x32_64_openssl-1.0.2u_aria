@@ -1,0 +1,1803 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://wiki.openssl.org/index.php/Binaries
+Subject: Binaries - OpenSSLWiki
+Date: Wed, 10 Jun 2020 05:36:03 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----"
+
+
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: text/html
+Content-ID: <frame-208CAAFA82290418D6116EF3CEA2EA0E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://wiki.openssl.org/index.php/Binaries
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-486e10f2-0b54-40e7-904=
+5-0329f24de020@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-8c3b5435-6cc5-4add-92f5-bcbbe03898f5@mhtml.blink" />
+
+<title>Binaries - OpenSSLWiki</title>
+
+
+<link rel=3D"stylesheet" href=3D"https://wiki.openssl.org/load.php?debug=3D=
+false&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cshared%7Cm=
+ediawiki.sectionAnchor%7Cmediawiki.skinning.content.externallinks%7Cmediawi=
+ki.skinning.interface%7Cskins.monobook.styles&amp;only=3Dstyles&amp;skin=3D=
+monobook">
+<!--[if IE 6]><link rel=3D"stylesheet" href=3D"/skins/MonoBook/IE60Fixes.cs=
+s?303" media=3D"screen"/><![endif]--><!--[if IE 7]><link rel=3D"stylesheet"=
+ href=3D"/skins/MonoBook/IE70Fixes.css?303" media=3D"screen"/><![endif]-->
+<meta name=3D"ResourceLoaderDynamicStyles" content=3D"">
+
+<meta name=3D"generator" content=3D"MediaWiki 1.27.4">
+<link rel=3D"alternate" type=3D"application/x-wiki" title=3D"Edit" href=3D"=
+https://wiki.openssl.org/index.php?title=3DBinaries&amp;action=3Dedit">
+<link rel=3D"edit" title=3D"Edit" href=3D"https://wiki.openssl.org/index.ph=
+p?title=3DBinaries&amp;action=3Dedit">
+<link rel=3D"shortcut icon" href=3D"https://wiki.openssl.org/favicon.ico">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://wiki.openssl.org/opensearch_desc.php" title=3D"OpenSSLWiki (en)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://wiki.ope=
+nssl.org/api.php?action=3Drsd">
+<link rel=3D"copyright" href=3D"https://wiki.openssl.org/index.php/License"=
+>
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"OpenSSLWiki =
+Atom feed" href=3D"https://wiki.openssl.org/index.php?title=3DSpecial:Recen=
+tChanges&amp;feed=3Datom">
+</head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-Binaries root=
+page-Binaries skin-monobook action-view">
+<div id=3D"globalWrapper">
+		<div id=3D"column-content">
+			<div id=3D"content" class=3D"mw-body" role=3D"main">
+				<a id=3D"top"></a>
+			=09
+				<div class=3D"mw-indicators">
+</div>
+				<h1 id=3D"firstHeading" class=3D"firstHeading" lang=3D"en">Binaries</h1=
+>
+			=09
+				<div id=3D"bodyContent" class=3D"mw-body-content">
+					<div id=3D"siteSub">From OpenSSLWiki</div>
+					<div id=3D"contentSub"></div>
+										<div id=3D"jump-to-nav" class=3D"mw-jump">Jump to: <a href=3D"htt=
+ps://wiki.openssl.org/index.php/Binaries#column-one">navigation</a>, <a hre=
+f=3D"https://wiki.openssl.org/index.php/Binaries#searchInput">search</a></d=
+iv>
+
+					<!-- start content -->
+					<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-conten=
+t-ltr"><p>Some people have offered to provide OpenSSL binary distributions =
+for selected operating systems. The condition to get a link here is that th=
+e link is stable and can provide continued support for OpenSSL for a while.
+</p><p>Note: many Linux distributions come with pre-compiled OpenSSL packag=
+es. Those are already well-known among the users of said distributions, and=
+ will therefore not be mentioned here. If you are such a user, we ask you t=
+o get in touch with your distributor first. This service is primarily for o=
+perating systems where there are no pre-compiled OpenSSL packages.
+</p><p><b>Important Disclaimer</b>:
+<i>The listing of these third party products does not imply any endorsement=
+ by the OpenSSL project, and these organizations are not affiliated in any =
+way with OpenSSL other than by the reference to their independent web sites=
+ here. In particular any donations or payments to any of these organization=
+s will not be known to, seen by, or in any way benefit the OpenSSL project.=
+</i>
+</p><p>Use these OpenSSL derived products at your own risk; these products =
+have not been evaluated or tested by the OpenSSL project.
+</p><p><br>
+</p>
+<table class=3D"wikitable sortable jquery-tablesorter" border=3D"1">
+<caption> Third Party OpenSSL Related Binary Distributions
+</caption>
+<thead><tr>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> Product
+</th>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> Description
+</th>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> URL
+</th></tr></thead><tbody>
+<tr>
+<td> OpenSSL for Windows
+</td>
+<td> Works with MSVC++, Builder 3/4/5, and MinGW. Comes in form of self-ins=
+tall executables.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://slproweb.c=
+om/products/Win32OpenSSL.html">https://slproweb.com/products/Win32OpenSSL.h=
+tml</a>
+</td></tr>
+
+<tr>
+<td> OpenSSL for Windows
+</td>
+<td> Pre-compiled Win32/64 libraries without external dependencies to the M=
+icrosoft Visual Studio Runtime DLLs, except for the system provided msvcrt.=
+dll.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://indy.fulga=
+n.com/SSL/">https://indy.fulgan.com/SSL/</a>
+</td></tr>
+
+<tr>
+<td> OpenSSL for Windows
+</td>
+<td> Reproducible 1.1.x builds with latest MinGW-w64/GCC, 32/64-bit, static=
+/dynamic libs and executable.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://bintray.co=
+m/vszakats/generic/openssl">https://bintray.com/vszakats/generic/openssl</a=
+>
+</td></tr>
+
+<tr>
+<td> OpenSSL for Solaris
+</td>
+<td> Versions for Solaris 2.5 - 11 SPARC and X86
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"http://www.unixpac=
+kages.com/">http://www.unixpackages.com/</a>
+</td></tr>
+
+<tr>
+<td> OpensSSL for Windows, Linux, OSX, Android
+</td>
+<td> Pre-compiled packages at conan.io package manager:<br><i>Windows</i> x=
+86/x86_64 (Visual Studio 10, 12, 14, 15) <br><i>Linux</i> x86/x86_64 (gcc 4=
+.6, 4.8, 4.9, 5, 6, 7) <br><i>OSx</i> (Apple clang). <br>Cross-building rea=
+dy recipe: Linux ARM, Android.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://www.conan.=
+io/">https://www.conan.io</a><br><a rel=3D"nofollow" class=3D"external free=
+" href=3D"https://bintray.com/conan-community/conan/OpenSSL%3Aconan">https:=
+//bintray.com/conan-community/conan/OpenSSL%3Aconan</a>
+</td></tr>
+
+<tr>
+<td> OpenSSL for Windows
+</td>
+<td> Pre-compiled Win32/64 1.0.2, 1.1.0 and 1.1.1 libraries without externa=
+l dependencies, primarily built for Fran=C3=A7ois Piette's Internet Compone=
+nt Suite (ICS) for Embarcadero (Borland) Delphi and C++ development tools, =
+but may be used for any Windows applications.  The OpenSSL DLLs and EXE fil=
+es are digitally code signed 'Open Source Developer, Fran=C3=A7ois PIETTE',=
+ so applications can self verify them for corruption.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"http://wiki.overby=
+te.eu/wiki/index.php/ICS_Download">http://wiki.overbyte.eu/wiki/index.php/I=
+CS_Download</a>
+</td></tr>
+
+<tr>
+<td> OpenSSL for Windows
+</td>
+<td> Pre-compiled Win32/x64 1.1.1 libraries with dependency on the Visual S=
+tudio 2019 runtime (binary-compatible with 2015+2017). Primarily built for =
+FireDaemon Fusion, but may be used for any Windows application. The OpenSSL=
+ DLL and EXE files are digitally code signed 'FireDaemon Technologies Limit=
+ed'.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://kb.firedae=
+mon.com/support/solutions/articles/4000121705">https://kb.firedaemon.com/su=
+pport/solutions/articles/4000121705</a>
+</td></tr>
+
+
+</tbody><tfoot></tfoot></table>
+<h1><span class=3D"mw-headline" id=3D"Engines">Engines</span><span class=3D=
+"mw-editsection"><span class=3D"mw-editsection-bracket">[</span><a href=3D"=
+https://wiki.openssl.org/index.php?title=3DBinaries&amp;action=3Dedit&amp;s=
+ection=3D1" title=3D"Edit section: Engines">edit</a><span class=3D"mw-edits=
+ection-bracket">]</span></span></h1>
+<p>Some third parties provide OpenSSL compatible engines. As for the binari=
+es above the following disclaimer applies:
+</p><p><b>Important Disclaimer</b>:
+<i>The listing of these third party products does not imply any endorsement=
+ by the OpenSSL project, and these organizations are not affiliated in any =
+way with OpenSSL other than by the reference to their independent web sites=
+ here. In particular any donations or payments to any of these organization=
+s will not be known to, seen by, or in any way benefit the OpenSSL project.=
+</i>
+</p>
+<table class=3D"wikitable sortable jquery-tablesorter" border=3D"1">
+<caption> Third Party OpenSSL compatible engines
+</caption>
+<thead><tr>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> Product
+</th>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> Description
+</th>
+<th scope=3D"col" class=3D"headerSort" tabindex=3D"0" role=3D"columnheader =
+button" title=3D"Sort ascending"> URL
+</th></tr></thead><tbody>
+
+<tr>
+<td> Intel=C2=AE QuickAssist Technology engine
+</td>
+<td> Intel=C2=AE QuickAssist Technology (<a rel=3D"nofollow" class=3D"exter=
+nal free" href=3D"http://www.intel.com/content/www/us/en/embedded/technolog=
+y/quickassist/overview.html">http://www.intel.com/content/www/us/en/embedde=
+d/technology/quickassist/overview.html</a>) provides acceleration for a num=
+ber of cryptographic algorithms. QAT_engine adds support for Intel=C2=AE Qu=
+ickAssist Technology to OpenSSL-1.1.0 via the ENGINE framework. The definit=
+ive list of algorithms exposed into OpenSSL (a subset of those supported in=
+ the device) is defined on the associated github page.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://github.com=
+/01org/QAT_Engine">https://github.com/01org/QAT_Engine</a>
+</td></tr>
+<tr>
+<td> ATECCX08 engine
+</td>
+<td> Support for the Atmel ATECC508A (<a rel=3D"nofollow" class=3D"external=
+ free" href=3D"http://www.atmel.com/devices/ATECC508A.aspx">http://www.atme=
+l.com/devices/ATECC508A.aspx</a>) hardware to provide secure key storage, E=
+CC cryptographic calculations for the ECC NIST P-256 curve, and FIPS certif=
+ied hardware Random Number Generator.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://github.com=
+/AtmelCSO/cryptoauth-openssl-engine">https://github.com/AtmelCSO/cryptoauth=
+-openssl-engine</a>
+</td></tr>
+
+<tr>
+<td> GOST engine
+</td>
+<td> A reference implementation of the Russian GOST crypto algorithms for O=
+penSSL. The presence of this engine also enables the built-in OpenSSL suppo=
+rt for GOST TLS ciphersuites. (Note: this engine is for OpenSSL version 1.1=
+.0 and above. Previous versions of OpenSSL used a built-in GOST engine)
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://github.com=
+/gost-engine/engine">https://github.com/gost-engine/engine</a>
+</td></tr>
+
+<tr>
+<td> ISARA Radiate Solution Suite OpenSSL Connector
+</td>
+<td> Commercially available engine and source code patch for OpenSSL 1.0.2 =
+branch.  The ISARA Radiate OpenSSL Connector lets you implement OpenSSL usi=
+ng quantum safe algorithms. ISARA Radiate (<a rel=3D"nofollow" class=3D"ext=
+ernal free" href=3D"https://www.isara.com/isara-radiate/">https://www.isara=
+.com/isara-radiate/</a>) gives you the cryptographic building blocks to cre=
+ate applications that will resist attacks by quantum computers.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://www.isara.=
+com/openssl/1/">https://www.isara.com/openssl/1/</a>
+</td></tr>
+
+<tr>
+<td> BEE2EVP engine
+</td>
+<td> Implements the Belarusian national cryptography: symmetric and public-=
+key encryption, MAC, AEAD, hashing, digital signature. Encapsulates the Bee=
+2 core cryptographic library into OpenSSL using the EVP interface.
+</td>
+<td> <a rel=3D"nofollow" class=3D"external free" href=3D"https://github.com=
+/bcrypto/bee2evp">https://github.com/bcrypto/bee2evp</a>
+</td></tr>
+
+</tbody><tfoot></tfoot></table>
+
+<!--=20
+NewPP limit report
+Cached time: 20200609091102
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.008 seconds
+Real time usage: 0.010 seconds
+Preprocessor visited node count: 3/1000000
+Preprocessor generated node count: 8/1000000
+Post=E2=80=90expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!--=20
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key wikidb:pcache:idhash:600-0!*!*!*!*!*!* =
+and timestamp 20200609091102 and revision id 2898
+ -->
+</div><div class=3D"printfooter">
+Retrieved from "<a dir=3D"ltr" href=3D"https://wiki.openssl.org/index.php?t=
+itle=3DBinaries&amp;oldid=3D2898">https://wiki.openssl.org/index.php?title=
+=3DBinaries&amp;oldid=3D2898</a>"</div>
+					<div id=3D"catlinks" class=3D"catlinks catlinks-allhidden" data-mw=3D"=
+interface"></div>					<!-- end content -->
+										<div class=3D"visualClear"></div>
+				</div>
+			</div>
+		</div>
+		<div id=3D"column-one">
+			<h2>Navigation menu</h2>
+					<div id=3D"p-cactions" class=3D"portlet" role=3D"navigation">
+			<h3>Views</h3>
+
+			<div class=3D"pBody">
+				<ul>
+				<li id=3D"ca-nstab-main" class=3D"selected"><a href=3D"https://wiki.ope=
+nssl.org/index.php/Binaries" title=3D"View the content page [alt-shift-c]" =
+accesskey=3D"c">Page</a></li>
+				<li id=3D"ca-talk" class=3D"new"><a href=3D"https://wiki.openssl.org/in=
+dex.php?title=3DTalk:Binaries&amp;action=3Dedit&amp;redlink=3D1" rel=3D"dis=
+cussion" title=3D"Discussion about the content page [alt-shift-t]" accesske=
+y=3D"t">Discussion</a></li>
+				<li id=3D"ca-edit"><a href=3D"https://wiki.openssl.org/index.php?title=
+=3DBinaries&amp;action=3Dedit" title=3D"Edit this page [alt-shift-e]" acces=
+skey=3D"e">Edit</a></li>
+				<li id=3D"ca-history"><a href=3D"https://wiki.openssl.org/index.php?tit=
+le=3DBinaries&amp;action=3Dhistory" title=3D"Past revisions of this page [a=
+lt-shift-h]" accesskey=3D"h">History</a></li>
+				</ul>
+							</div>
+		</div>
+				<div class=3D"portlet" id=3D"p-personal" role=3D"navigation">
+				<h3>Personal tools</h3>
+
+				<div class=3D"pBody">
+					<ul>
+						<li id=3D"pt-anonuserpage">Not logged in</li>							<li id=3D"pt-anon=
+talk"><a href=3D"https://wiki.openssl.org/index.php/Special:MyTalk" title=
+=3D"Discussion about edits from this IP address [alt-shift-n]" accesskey=3D=
+"n">Talk</a></li>
+													<li id=3D"pt-anoncontribs"><a href=3D"https://wiki.openssl.org=
+/index.php/Special:MyContributions" title=3D"A list of edits made from this=
+ IP address [alt-shift-y]" accesskey=3D"y">Contributions</a></li>
+													<li id=3D"pt-login"><a href=3D"https://wiki.openssl.org/index.=
+php?title=3DSpecial:UserLogin&amp;returnto=3DBinaries" title=3D"You are enc=
+ouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey=3D=
+"o">Log in</a></li>
+											</ul>
+				</div>
+			</div>
+			<div class=3D"portlet" id=3D"p-logo" role=3D"banner">
+				<a href=3D"https://wiki.openssl.org/index.php/Main_Page" class=3D"mw-wi=
+ki-logo" title=3D"Visit the main page"></a>
+			</div>
+				<div class=3D"generated-sidebar portlet" id=3D"p-navigation" role=3D"na=
+vigation">
+		<h3>Navigation</h3>
+		<div class=3D"pBody">
+							<ul>
+											<li id=3D"n-mainpage-description"><a href=3D"https://wiki.openss=
+l.org/index.php/Main_Page" title=3D"Visit the main page [alt-shift-z]" acce=
+sskey=3D"z">Main page</a></li>
+											<li id=3D"n-recentchanges"><a href=3D"https://wiki.openssl.org/i=
+ndex.php/Special:RecentChanges" title=3D"A list of recent changes in the wi=
+ki [alt-shift-r]" accesskey=3D"r">Recent changes</a></li>
+											<li id=3D"n-randompage"><a href=3D"https://wiki.openssl.org/inde=
+x.php/Special:Random" title=3D"Load a random page [alt-shift-x]" accesskey=
+=3D"x">Random page</a></li>
+											<li id=3D"n-help"><a href=3D"https://www.mediawiki.org/wiki/Spec=
+ial:MyLanguage/Help:Contents" title=3D"The place to find out">Help</a></li>
+									</ul>
+					</div>
+		</div>
+			<div id=3D"p-search" class=3D"portlet" role=3D"search">
+			<h3><label for=3D"searchInput">Search</label></h3>
+
+			<div id=3D"searchBody" class=3D"pBody">
+				<form action=3D"https://wiki.openssl.org/index.php" id=3D"searchform">
+				=09
+					<input type=3D"search" name=3D"search" placeholder=3D"Search" title=3D=
+"Search OpenSSLWiki [alt-shift-f]" accesskey=3D"f" id=3D"searchInput" autoc=
+omplete=3D"off">
+					<input type=3D"submit" name=3D"go" value=3D"Go" title=3D"Go to a page =
+with this exact name if it exists" id=3D"searchGoButton" class=3D"searchBut=
+ton">&nbsp;
+						<input type=3D"submit" name=3D"fulltext" value=3D"Search" title=3D"Se=
+arch the pages for this text" id=3D"mw-searchButton" class=3D"searchButton"=
+>
+				</form>
+
+							</div>
+		</div>
+			<div class=3D"portlet" id=3D"p-tb" role=3D"navigation">
+			<h3>Tools</h3>
+
+			<div class=3D"pBody">
+				<ul>
+											<li id=3D"t-whatlinkshere"><a href=3D"https://wiki.openssl.org/i=
+ndex.php/Special:WhatLinksHere/Binaries" title=3D"A list of all wiki pages =
+that link here [alt-shift-j]" accesskey=3D"j">What links here</a></li>
+											<li id=3D"t-recentchangeslinked"><a href=3D"https://wiki.openssl=
+.org/index.php/Special:RecentChangesLinked/Binaries" title=3D"Recent change=
+s in pages linked from this page [alt-shift-k]" accesskey=3D"k">Related cha=
+nges</a></li>
+											<li id=3D"t-specialpages"><a href=3D"https://wiki.openssl.org/in=
+dex.php/Special:SpecialPages" title=3D"A list of all special pages [alt-shi=
+ft-q]" accesskey=3D"q">Special pages</a></li>
+											<li id=3D"t-print"><a href=3D"https://wiki.openssl.org/index.php=
+?title=3DBinaries&amp;printable=3Dyes" rel=3D"alternate" title=3D"Printable=
+ version of this page [alt-shift-p]" accesskey=3D"p">Printable version</a><=
+/li>
+											<li id=3D"t-permalink"><a href=3D"https://wiki.openssl.org/index=
+.php?title=3DBinaries&amp;oldid=3D2898" title=3D"Permanent link to this rev=
+ision of the page">Permanent link</a></li>
+											<li id=3D"t-info"><a href=3D"https://wiki.openssl.org/index.php?=
+title=3DBinaries&amp;action=3Dinfo" title=3D"More information about this pa=
+ge">Page information</a></li>
+									</ul>
+							</div>
+		</div>
+			</div><!-- end of the left (by default at least) column -->
+		<div class=3D"visualClear"></div>
+					<div id=3D"footer" role=3D"contentinfo">
+						<div id=3D"f-copyrightico">
+									<a href=3D"http://www.openssl.org/source/license.html"><img src=3D=
+"https://wiki.openssl.org/index.php/Binaries" alt=3D"the OpenSSL License" w=
+idth=3D"88" height=3D"31"></a>
+							</div>
+					<div id=3D"f-poweredbyico">
+									<a href=3D"https://www.mediawiki.org/"><img src=3D"https://wiki.op=
+enssl.org/resources/assets/poweredby_mediawiki_88x31.png" alt=3D"Powered by=
+ MediaWiki" width=3D"88" height=3D"31"></a>
+							</div>
+					<ul id=3D"f-list">
+									<li id=3D"lastmod"> This page was last modified on 21 December 201=
+9, at 13:40.</li>
+									<li id=3D"copyright">Content is available under <a href=3D"https:/=
+/wiki.openssl.org/index.php/License" title=3D"License">the OpenSSL License<=
+/a> unless otherwise noted.</li>
+									<li id=3D"privacy"><a href=3D"https://wiki.openssl.org/index.php/O=
+penSSLWiki:Privacy_policy" title=3D"OpenSSLWiki:Privacy policy">Privacy pol=
+icy</a></li>
+									<li id=3D"about"><a href=3D"https://wiki.openssl.org/index.php/Ope=
+nSSLWiki:About" title=3D"OpenSSLWiki:About">About OpenSSLWiki</a></li>
+									<li id=3D"disclaimer"><a href=3D"https://wiki.openssl.org/index.ph=
+p/OpenSSLWiki:General_disclaimer" title=3D"OpenSSLWiki:General disclaimer">=
+Disclaimers</a></li>
+							</ul>
+		</div>
+		</div>
+	=09
+<div id=3D"blinkextension_snap_links_box_mg_mouse_gestures" style=3D"backgr=
+ound-color: rgba(250, 128, 0, 0.07); border: 3px dashed blue; box-sizing: b=
+order-box; position: absolute; z-index: 2147483647; display: none;"></div><=
+div id=3D"hit_a_link_blinkextension_container_mg_mouse_gestures" style=3D"d=
+isplay: none; position: absolute; left: 0px; top: 0px; width: 0px; height: =
+0px; z-index: 2147483647; background: rgba(0, 0, 0, 0);"></div><div class=
+=3D"suggestions" style=3D"display: none; font-size: 11.4617px;"><div class=
+=3D"suggestions-results"></div><div class=3D"suggestions-special"></div></d=
+iv><div id=3D"ToolTipDic" class=3D"tooltip_dic" style=3D"display: inline !i=
+mportant; visibility: visible !important; position: absolute !important; he=
+ight: auto !important; width: auto !important; z-index: 1410065406 !importa=
+nt; vertical-align: middle; padding: 1px; margin: 0px !important; font-size=
+: 9pt !important; line-height: normal !important; font-family: &quot;=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95&quot;; font-weight: bold; color: rgb(0, 0, =
+0); border: 1px solid rgb(112, 112, 112); background: -webkit-gradient(line=
+ar, 0% 0%, 0% 100%, from(rgb(240, 240, 240)), to(rgb(220, 220, 220))); over=
+flow: hidden; white-space: nowrap; border-radius: 0.2em; box-shadow: rgba(0=
+, 0, 0, 0.4) 2px 2px 5px; left: 834px !important; top: 465px !important;">e=
+xecutable : =EC=8B=A4=ED=96=89=EA=B0=80=EB=8A=A5=ED=95=9C</div></body></htm=
+l>
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-486e10f2-0b54-40e7-9045-0329f24de020@mhtml.blink
+
+@charset "utf-8";
+
+.mw-collapsible-toggle { float: right; user-select: none; }
+
+.mw-content-ltr .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr .mw=
+-collapsible-toggle { float: right; }
+
+.mw-content-rtl .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl .mw=
+-collapsible-toggle { float: left; }
+
+.mw-customtoggle, .mw-collapsible-toggle { cursor: pointer; }
+
+caption .mw-collapsible-toggle, .mw-content-ltr caption .mw-collapsible-tog=
+gle, .mw-content-rtl caption .mw-collapsible-toggle, .mw-content-rtl .mw-co=
+ntent-ltr caption .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl c=
+aption .mw-collapsible-toggle { float: none; }
+
+li .mw-collapsible-toggle, .mw-content-ltr li .mw-collapsible-toggle, .mw-c=
+ontent-rtl li .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr li .m=
+w-collapsible-toggle, .mw-content-ltr .mw-content-rtl li .mw-collapsible-to=
+ggle { float: none; }
+
+.mw-collapsible-toggle-li { list-style: none; }
+
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; w=
+idth: 0px; border: none; z-index: 1099; padding: 0px; margin: -1px 0px 0px;=
+ }
+
+.suggestions-special { position: relative; background-color: white; cursor:=
+ pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; displ=
+ay: none; padding: 0.25em; line-height: 1.25em; }
+
+.suggestions-results { background-color: white; cursor: pointer; border: 1p=
+x solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+
+.suggestions-result { color: black; margin: 0px; line-height: 1.5em; paddin=
+g: 0.01em 0.25em; text-align: left; overflow: hidden; text-overflow: ellips=
+is; white-space: nowrap; }
+
+.suggestions-result-current { background-color: rgb(76, 89, 166); color: wh=
+ite; }
+
+.suggestions-special .special-label { color: gray; text-align: left; }
+
+.suggestions-special .special-query { color: black; font-style: italic; tex=
+t-align: left; }
+
+.suggestions-special .special-hover { background-color: silver; }
+
+.suggestions-result-current .special-label, .suggestions-result-current .sp=
+ecial-query { color: white; }
+
+.highlight { font-weight: bold; }
+
+.postedit-container { margin: 0px auto; position: fixed; top: 0px; height: =
+0px; left: 50%; z-index: 1000; font-size: 13px; }
+
+.postedit-container:hover { cursor: pointer; }
+
+.postedit { position: relative; top: 0.6em; left: -50%; padding: 0.6em 3.6e=
+m 0.6em 1.1em; line-height: 1.5625em; color: rgb(98, 100, 101); background-=
+color: rgb(244, 244, 244); border: 1px solid rgb(220, 217, 217); text-shado=
+w: rgba(255, 255, 255, 0.5) 0px 0.0625em 0px; border-radius: 5px; box-shado=
+w: rgb(204, 204, 204) 0px 2px 5px 0px; transition: all 0.25s ease-in-out 0s=
+; }
+
+.skin-monobook .postedit { top: 6em !important; }
+
+.postedit-faded { opacity: 0; }
+
+.postedit-icon { padding-left: 41px; line-height: 25px; background-repeat: =
+no-repeat; background-position: 8px 50%; }
+
+.postedit-icon-checkmark { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bd=
+u2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+m=
+z+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW=
+35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9=
+Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/l=
+S0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYX=
+sPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWd=
+zaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjs=
+WO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsx=
+UAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=3D"); bac=
+kground-position: left center; }
+
+.postedit-close { position: absolute; padding: 0px 0.8em; right: 0px; top: =
+0px; font-size: 1.25em; font-weight: bold; line-height: 2.3em; color: black=
+; text-shadow: white 0px 0.0625em 0px; text-decoration: none; opacity: 0.2;=
+ }
+
+.postedit-close:hover { color: black; text-decoration: none; opacity: 0.4; }
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8c3b5435-6cc5-4add-92f5-bcbbe03898f5@mhtml.blink
+
+@charset "utf-8";
+
+.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:=
+hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searc=
+hSuggest-link:focus { color: black; text-decoration: none; }
+
+.suggestions-result-current a.mw-searchSuggest-link, .suggestions-result-cu=
+rrent a.mw-searchSuggest-link:hover, .suggestions-result-current a.mw-searc=
+hSuggest-link:active, .suggestions-result-current a.mw-searchSuggest-link:f=
+ocus { color: white; }
+
+.suggestions a.mw-searchSuggest-link .special-query { overflow: hidden; tex=
+t-overflow: ellipsis; white-space: nowrap; }
+
+table.jquery-tablesorter th.headerSort { background-image: linear-gradient(=
+transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%2=
+21.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fw=
+ww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2021%209%22%20height%3D%229%=
+22%20width%3D%2221%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14.5%205l-4%204-4-=
+4zM14.5%204l-4-4-4%204z%22%2F%3E%0A%3C%2Fsvg%3E%0A"); cursor: pointer; back=
+ground-repeat: no-repeat; background-position: right center; padding-right:=
+ 21px; }
+
+table.jquery-tablesorter th.headerSortUp { background-image: linear-gradien=
+t(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D=
+%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2=
+Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2021%204%22%20height%3D%22=
+4%22%20width%3D%2221%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M6.5%204l4-4%204%=
+204z%22%2F%3E%0A%3C%2Fsvg%3E%0A"); }
+
+table.jquery-tablesorter th.headerSortDown { background-image: linear-gradi=
+ent(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%=
+3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F=
+%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2021%204%22%20height%3D%=
+224%22%20width%3D%2221%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14.5%200l-4%20=
+4-4-4z%22%2F%3E%0A%3C%2Fsvg%3E%0A"); }
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://wiki.openssl.org/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.content.externallinks%7Cmediawiki.skinning.interface%7Cskins.monobook.styles&only=styles&skin=monobook
+
+@charset "utf-8";
+
+@media print {
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, .mw-editsec=
+tion, .mw-editsection-like, #footer-places, .mw-hidden-catlinks, .usermessa=
+ge, .patrollink, .ns-0 .mw-redirectedfrom, div.magnify, #mw-navigation, #si=
+teNotice, div#f-poweredbyico, div#f-copyrightico, li#about, li#disclaimer, =
+li#mobileview, li#privacy { display: none; }
+  body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px; =
+padding: 0px; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; break-after: avoid; }
+  dt { font-weight: bold; }
+  ul { list-style-type: square; }
+  p { margin: 1em 0px; line-height: 1.2em; orphans: 3; widows: 3; }
+  pre, .mw-code { background: rgb(255, 255, 255); color: rgb(0, 0, 0); bord=
+er: 1pt dashed rgb(0, 0, 0); padding: 1em 0px; font-size: 8pt; white-space:=
+ pre; overflow-wrap: break-word; overflow: auto; }
+  img, .wikitable, .thumb { break-inside: avoid; }
+  img { border: 0px; vertical-align: middle; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  .mw-body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); direction=
+: ltr; border: 0px !important; padding: 0px !important; margin: 0px !import=
+ant; }
+  #column-content { margin: 0px !important; }
+  #column-content .mw-body { padding: 1em; margin: 0px !important; }
+  #toc { background-color: rgb(249, 249, 249); border: 1pt solid rgb(170, 1=
+70, 170); padding: 5px; display: table; }
+  .tocnumber, .toctext { display: table-cell; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  #footer { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin-top=
+: 1em; border-top: 1pt solid rgb(170, 170, 170); direction: ltr; }
+  a { background: none !important; padding: 0px !important; }
+  .mw-body a.external.text::after, .mw-body a.external.autonumber::after { =
+content: " (" attr(href) ")"; overflow-wrap: break-word; }
+  .mw-body a.external.text[href^=3D"//"]::after, .mw-body a.external.autonu=
+mber[href^=3D"//"]::after { content: " (https:" attr(href) ")"; }
+  a, a.external, a.new, a.stub { color: rgb(0, 0, 0) !important; text-decor=
+ation: none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { background-color: transparent; border: 0px; width: auto; marg=
+in-top: 0.5em; margin-bottom: 0.8em; }
+  div.thumbinner { background-color: rgb(255, 255, 255); border: 1pt solid =
+rgb(204, 204, 204); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1pt solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1pt solid rgb(221, 221, 221); }
+  table.wikitable, table.mw_metadata { background: rgb(255, 255, 255); marg=
+in: 1em 0px; border: 1pt solid rgb(170, 170, 170); border-collapse: collaps=
+e; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1pt solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { background: rgb(255, 255, 255); font-weight: bold; text-align: center; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  table.listing, table.listing td { border: 1pt solid rgb(0, 0, 0); border-=
+collapse: collapse; }
+  a.sortheader { margin: 0px 0.3em; }
+  .catlinks ul { display: inline; padding: 0px; list-style: none none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1pt solid rgb(170, 170, 170); margin: 0.1em 0px; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: 0px; }
+  .printfooter { padding: 1em 0px; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  .mw-userlink { unicode-bidi: embed; }
+  mark { background-color: yellow; color: black; }
+  wbr { display: inline-block; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr[title], .explain[title] { border-bottom: 1px dotted; cursor: help; }
+  @supports (text-decoration:underline dotted) {
+  abbr[title], .explain[title] { border-bottom: none; text-decoration: unde=
+rline dotted; }
+}
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null { unicode-bidi: =
+isolate; }
+  span.comment { font-style: italic; unicode-bidi: isolate; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: middle; }
+  td.mw-submit { white-space: nowrap; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-input-with-label { white-space: nowrap; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-protect-editreasons, p.mw-filedelete-editreasons, p.mw-delete-editre=
+asons { font-size: 90%; text-align: right; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisionactions { float: right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.new { color: rgb(186, 0, 0); }
+  .plainlinks a.external { background: none !important; padding: 0px !impor=
+tant; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em 0.4em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  .error, .warning, .success { font-size: larger; }
+  .error { color: rgb(204, 0, 0); }
+  .warning { color: rgb(112, 80, 0); }
+  .success { color: rgb(0, 144, 0); }
+  .errorbox, .warningbox, .successbox { border: 1px solid; padding: 0.5em 1=
+em; margin-bottom: 1em; display: inline-block; zoom: 1; }
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; color: inh=
+erit; font-weight: bold; display: inline; margin: 0px 0.5em 0px 0px; border=
+: none; }
+  .errorbox { color: rgb(204, 0, 0); border-color: rgb(250, 197, 197); back=
+ground-color: rgb(250, 227, 227); }
+  .warningbox { color: rgb(112, 80, 0); border-color: rgb(253, 226, 155); b=
+ackground-color: rgb(253, 241, 209); }
+  .successbox { color: rgb(0, 128, 0); border-color: rgb(183, 253, 181); ba=
+ckground-color: rgb(225, 253, 223); }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  .mw-ajax-loader { background-image: url("/resources/src/mediawiki.legacy/=
+images/ajax-loader.gif?57f34"); background-position: center center; backgro=
+und-repeat: no-repeat; padding: 16px; position: relative; top: -16px; }
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("/resource=
+s/src/mediawiki.legacy/images/spinner.gif?ca65b"); background-position: cen=
+ter center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(azb) li, ol:lang(bcc) li, ol:lang(bgn) li, ol:lang(bqi) li, ol:la=
+ng(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(lrc) li, ol:lang(l=
+uz) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li, ol:lang(sdh) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("/resources/src/mediawi=
+ki.legacy/images/help-question.gif?346d8"); background-position: left cente=
+r; background-repeat: no-repeat; cursor: pointer; font-size: 0.8em; text-de=
+coration: underline; color: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("/resources/src/mediawi=
+ki.legacy/images/help-question-hover.gif?53eb5"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-multi, .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: emb=
+ed; direction: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .mw-editsection, #jump-to-nav { user-select: none; }
+  .mw-editsection, .mw-editsection-like { font-size: small; font-weight: no=
+rmal; margin-left: 1em; vertical-align: baseline; line-height: 1em; display=
+: inline-block; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section { margin-left: 1em; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section { margin-right: 1em; }
+  sup, sub { line-height: 1; }
+}
+
+.mw-headline-anchor { display: none; }
+
+@media screen {
+  .mw-body a.external, .link-https { background: linear-gradient(transparen=
+t, transparent) right center no-repeat, url("data:image/svg+xml,%3C%3Fxml%2=
+0version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E=
+%0A%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-s=
+yntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20heigh=
+t%3D%2213%22%20width%3D%2213%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22htt=
+p%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpur=
+l.org%2Fdc%2Felements%2F1.1%2F%22%3E%0A%3Cg%20transform%3D%22translate%28-3=
+6.467808%2C-258.39005%29%22%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A=
+%233366bb%3B%22%20d%3D%22m41.47%2C259.4%2C7%2C0%2C0%2C7-2-2-3%2C2%2C0-1%2C3=
+-2.25%2C1%2C1%2C0-3.75-3.75%2C0%2C1%2C1-2.25%2C3-1%2C0%2C2-3z%22%2F%3E%0A%3=
+Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d%3D%22m43.47%2C2=
+61.4-5%2C0%2C0%2C8%2C8%2C0%2C0-5-1%2C0%2C0%2C4-6%2C0%2C0-6%2C4%2C0z%22%2F%3=
+E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%2315a5ea%3B%22%20d%3D%22m40.=
+55%2C263.9c0-0.6213%2C0.6213-0.6213%2C0.6213-0.6213%2C1.864%2C0.6213%2C3.10=
+7%2C1.864%2C3.728%2C3.728%2C0%2C0%2C0%2C0.6213-0.6213%2C0.6213-1.243-1.864-=
+1.864-2.485-3.728-3.728z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A"); padding=
+-right: 15px; }
+  .mw-body a.external[href^=3D"mailto:"], .link-mailto { background: linear=
+-gradient(transparent, transparent) right center no-repeat, url("data:image=
+/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standal=
+one%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F=
+1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2=
+000%2Fsvg%22%20height%3D%2213%22%20width%3D%2213%22%20version%3D%221.1%22%2=
+0xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3=
+D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%0A%3Cg%20transform=
+%3D%22translate%28-36.47%2C-257.4%29%22%3E%0A%3Cpath%20style%3D%22fill%3A%2=
+315a5ea%3B%22%20d%3D%22m38.31%2C261.4%2C4.66%2C4.349%2C4.66-4.349-0.6213-0.=
+6213-1.243%2C0.6216-2.796%2C2.485-2.796-2.485-1.243-0.6216z%22%2F%3E%0A%3Cp=
+ath%20style%3D%22fill%3A%233366bb%3B%22%20d%3D%22m37.47%2C260.4%2C0%2C8%2C1=
+1%2C0%2C0-8zm1%2C1%2C9%2C0%2C0%2C6-9%2C0z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg=
+%3E%0A"); padding-right: 15px; }
+  .mw-body a.external[href^=3D"ftp://"], .link-ftp { background: linear-gra=
+dient(transparent, transparent) right center no-repeat, url("data:image/svg=
++xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%=
+3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999=
+%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%=
+2Fsvg%22%20height%3D%2213%22%20width%3D%2213%22%20version%3D%221.1%22%20xml=
+ns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22=
+http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%0A%3Cg%20transform%3D%=
+22translate%28-136.35715%2C-374.43362%29%22%3E%0A%3Cpath%20style%3D%22opaci=
+ty%3A1%3Bfill%3A%233465ba%3B%22%20d%3D%22m137.4%2C376.9%2C0%2C7.5%2C1-0.987=
+2%2C0-6.013%2C2%2C0%2C2%2C1%2C4-0.0002%2C0%2C2%2C1%2C0%2C0-2.5-0.5-0.5002-4=
+.5%2C0.0002-2-1-2.5%2C0z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill=
+%3A%2316a4e8%3B%22%20d%3D%22m142.4%2C379.4-1-0.0001-2.5%2C0-0.5%2C0.5-1%2C4=
+.5%2C10-0.0001%2C0-4.5-0.5-0.5zm0%2C1%2C4-0.0001%2C0%2C3-7.75-0.0001%2C0.75=
+-3%2C2%2C0z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233465ba%=
+3B%22%20d%3D%22m138.4%2C385.4%2C0%2C1%2C8%2C0%2C0-1z%22%2F%3E%0A%3Cpath%20s=
+tyle%3D%22opacity%3A1%3Bfill%3A%233465ba%3B%22%20d%3D%22m141.4%2C383.9%2C0%=
+2C2%2C2%2C0%2C0-2c0-0.5-2-0.5-2%2C0z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0=
+A"); padding-right: 15px; }
+  .mw-body a.external[href^=3D"irc://"], .mw-body a.external[href^=3D"ircs:=
+//"], .link-irc { background: linear-gradient(transparent, transparent) rig=
+ht center no-repeat, url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%2=
+2%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3=
+Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xm=
+lns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2213%22%20widt=
+h%3D%2213%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativec=
+ommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felemen=
+ts%2F1.1%2F%22%3E%0A%3Cg%20transform%3D%22translate%28-36.467808%2C-258.390=
+05%29%22%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d=
+%3D%22m38.09%2C260.4-0.6213%2C0.6213%2C0%2C5.757%2C0.6213%2C0.6213%2C1.689%=
+2C0-0.6213%2C2.728%2C4.311-2.728%2C4.379%2C0%2C0.6213-0.6213%2C0-5.757-0.62=
+13-0.6213zm0.3787%2C1%2C9%2C0%2C0%2C5-4%2C0-2.902%2C1.897%2C0.9021-1.897-3%=
+2C0z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A"); padding-right: 15px; }
+  .mw-body a.external[href$=3D".ogg"], .mw-body a.external[href$=3D".OGG"],=
+ .mw-body a.external[href$=3D".mid"], .mw-body a.external[href$=3D".MID"], =
+.mw-body a.external[href$=3D".midi"], .mw-body a.external[href$=3D".MIDI"],=
+ .mw-body a.external[href$=3D".mp3"], .mw-body a.external[href$=3D".MP3"], =
+.mw-body a.external[href$=3D".wav"], .mw-body a.external[href$=3D".WAV"], .=
+mw-body a.external[href$=3D".wma"], .mw-body a.external[href$=3D".WMA"], .l=
+ink-audio { background: linear-gradient(transparent, transparent) right cen=
+ter no-repeat, url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20en=
+coding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3Ardf%3=
+D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2213%22%20width%3D%2=
+213%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons=
+.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1=
+.1%2F%22%3E%0A%3Cg%20transform%3D%22translate%28-36.467808%2C-258.39005%29%=
+22%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d%3D%22=
+m43.47%2C259.4-3%2C3-3%2C0%2C0%2C4%2C3%2C0%2C3%2C3zm-1%2C2.5%2C0%2C5-1.5-1.=
+5-2.5%2C0%2C0-2%2C2.5%2C0z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfi=
+ll%3A%2315a5ea%3B%22%20d%3D%22m43.9%2C262.5c0-0.6213%2C0.6213-1.243%2C1.243=
+-0.6213%2C0%2C0%2C0.6213%2C0.6213%2C0.6213%2C2.485s-0.6213%2C2.485-0.6213%2=
+C2.485c-0.6213%2C0.6213-1.243%2C0-1.243-0.6213%2C0%2C0%2C0.6213-0.6213%2C0.=
+6213-1.864s-0.6213-1.864-0.6213-1.864z%22%2F%3E%0A%3Cpath%20style%3D%22opac=
+ity%3A1%3Bfill%3A%2315a5ea%3B%22%20d%3D%22m45.76%2C261.2c0-0.6213%2C0.6213-=
+1.243%2C1.243-0.6213%2C0%2C0%2C1.243%2C1.243%2C1.243%2C3.728s-1.243%2C3.728=
+-1.243%2C3.728c-0.6213%2C0.6213-1.243%2C0-1.243-0.6213%2C0%2C0%2C1.243-1.24=
+3%2C1.243-3.107s-1.243-3.107-1.243-3.107z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg=
+%3E%0A"); padding-right: 15px; }
+  .mw-body a.external[href$=3D".ogm"], .mw-body a.external[href$=3D".OGM"],=
+ .mw-body a.external[href$=3D".avi"], .mw-body a.external[href$=3D".AVI"], =
+.mw-body a.external[href$=3D".mpeg"], .mw-body a.external[href$=3D".MPEG"],=
+ .mw-body a.external[href$=3D".mpg"], .mw-body a.external[href$=3D".MPG"], =
+.link-video { background: linear-gradient(transparent, transparent) right c=
+enter no-repeat, url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20=
+encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3Ardf=
+%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%=
+3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2213%22%20width%3D=
+%2213%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommo=
+ns.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2=
+F1.1%2F%22%3E%0A%3Cg%20transform%3D%22translate%28-36.4678%2C-258.39%29%22%=
+3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill-opacity%3A1%3Bfill%3A%2315a5ea=
+%3B%22%20d%3D%22m38.96%2C260.4%2C0%2C0.6213%2C8.098%2C0%2C0-0.6213z%22%2F%3=
+E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill-opacity%3A1%3Bfill%3A%2315a5ea%=
+3B%22%20d%3D%22m38.96%2C268.4%2C8.098%2C0%2C0-0.6213-8.098%2C0z%22%2F%3E%0A=
+%3Cpath%20style%3D%22opacity%3A1%3Bfill-opacity%3A1%3Bfill%3A%2315a5ea%3B%2=
+2%20d%3D%22m38.96%2C262.3%2C0%2C0.6213%2C1.869%2C0%2C0-0.6213zm6.229%2C0%2C=
+0%2C0.6213%2C1.869%2C0%2C0-0.6213z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%=
+3A1%3Bfill-opacity%3A1%3Bfill%3A%2315a5ea%3B%22%20d%3D%22m38.96%2C266%2C0%2=
+C0.6213%2C1.869%2C0%2C0-0.6213zm6.229%2C0%2C0%2C0.6213%2C1.869%2C0%2C0-0.62=
+13z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill-opacity%3A1%3Bfill%3=
+A%2315a5ea%3B%22%20d%3D%22m38.96%2C264.8%2C8.098%2C0%2C0-0.6213-8.098%2C0z%=
+22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%2315a5ea%3B%22%20d%3D=
+%22m40.83%2C263.9%2C0%2C1.243%2C4.36%2C0%2C0-1.243z%22%2F%3E%0A%3Cpath%20st=
+yle%3D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d%3D%22m40.47%2C260.4%2C0%2=
+C8%2C5%2C0%2C0-8zm1%2C1%2C3%2C0%2C0%2C6-3%2C0z%22%2F%3E%0A%3Cpath%20style%3=
+D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d%3D%22m38.47%2C259.4%2C1%2C0%2C=
+0%2C10-1%2C0z%22%2F%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233366b=
+b%3B%22%20d%3D%22m46.47%2C259.4%2C1%2C0%2C0%2C10-1%2C0z%22%2F%3E%0A%3C%2Fg%=
+3E%0A%3C%2Fsvg%3E%0A"); padding-right: 15px; }
+  .mw-body a.external[href$=3D".pdf"], .mw-body a.external[href$=3D".PDF"],=
+ .mw-body a.external[href*=3D".pdf#"], .mw-body a.external[href*=3D".PDF#"]=
+, .mw-body a.external[href*=3D".pdf?"], .mw-body a.external[href*=3D".PDF?"=
+], .link-document { background: linear-gradient(transparent, transparent) r=
+ight center no-repeat, url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0=
+%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns=
+%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20=
+xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2213%22%20wi=
+dth%3D%2213%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativ=
+ecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felem=
+ents%2F1.1%2F%22%3E%0A%3Cpath%20style%3D%22opacity%3A1%3Bfill%3A%2315a5ea%3=
+B%22%20d%3D%22m7.5%2C2%2C0%2C3%2C2.5%2C0%2C1-1-2.5%2C0%2C0-3z%22%2F%3E%0A%3=
+Cpath%20style%3D%22opacity%3A1%3Bfill%3A%233366bb%3B%22%20d%3D%22m3%2C1%2C0=
+%2C10%2C8%2C0%2C0-7-2.5-3zm1%2C1%2C4%2C0%2C2%2C2.5%2C0%2C5.5-6%2C0z%22%2F%3=
+E%0A%3C%2Fsvg%3E%0A"); padding-right: 15px; }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+}
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-d=
+ecoration: none; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  .mw-body a.external.free { overflow-wrap: break-word; }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 128%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; }
+  p img { margin: 0px; }
+  ul { list-style-type: square; margin: 0.3em 0px 0px 1.6em; padding: 0px; =
+}
+  ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { margin-left: 1.6em; margin-bottom: 0.1em; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { color: black; background-color: rgb(249, 249, 249); border: 1px so=
+lid rgb(221, 221, 221); border-radius: 2px; padding: 1px 4px; }
+  pre, .mw-code { color: black; background-color: rgb(249, 249, 249); borde=
+r: 1px solid rgb(221, 221, 221); padding: 1em; white-space: pre-wrap; }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; display: block; box-sizing: borde=
+r-box; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning, .toccolours { border: 1px solid rgb(170, 170, 17=
+0); background-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc, .toc { display: table; zoom: 1; padding: 7px; }
+  table#toc, table.toc { border-collapse: collapse; }
+  table#toc td, table.toc td { padding: 0px; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  .tocnumber, .toctext { display: table-cell; text-decoration: inherit; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); padding: 3px; back=
+ground-color: rgb(249, 249, 249); font-size: 94%; text-align: center; overf=
+low: hidden; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; padding: 3px; font=
+-size: 94%; text-align: left; }
+  div.magnify { float: right; margin-left: 3px; }
+  div.magnify a { display: block; text-indent: 15px; white-space: nowrap; o=
+verflow: hidden; width: 15px; height: 11px; background-image: linear-gradie=
+nt(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3=
+D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%=
+20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2=
+011%2015%22%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20=
+id%3D%22magnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A=
+%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865=
+h10.99v7.919h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22s=
+mallbox%22%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%2=
+0%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A"); user-select: none; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; margin-left: 3px; margin-right: =
+0px; }
+  .mw-content-ltr div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865h10.99v7.9=
+19h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; margin-left: 0px; margin-right: 3=
+px; }
+  .mw-content-rtl div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M9.491%201.865h-10.99v7.=
+919h10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M12.499%206.868h-5.943v4.904h5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .editOptions { background-color: rgb(240, 240, 240); border-right: 1px so=
+lid silver; border-bottom: 1px solid silver; border-left: 1px solid silver;=
+ border-image: initial; border-top: none; padding: 1em 1em 1.5em; margin-bo=
+ttom: 2em; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading { margin-bottom: 0.1em; line-height: 1.2em; padding-bottom:=
+ 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(84, 84, 84); width: auto; }
+  span.subpages { display: block; }
+}
+
+.mw-wiki-logo { background-image: url("/images/openssl-logo-135.png?5d667")=
+; }
+
+@media screen {
+  div#column-content { width: 100%; float: right; margin: 0px 0px 0.6em -12=
+.2em; padding: 0px; }
+  .mw-body { margin: 2.8em 0px 0px 12.2em; padding: 1em; position: relative=
+; z-index: 2; background: white; color: black; border-top: 1px solid rgb(17=
+0, 170, 170); border-bottom: 1px solid rgb(170, 170, 170); border-left: 1px=
+ solid rgb(170, 170, 170); border-image: initial; border-right: none; line-=
+height: 1.5em; }
+  div#column-one { padding-top: 160px; }
+  #column-one h2 { position: absolute; top: -9999px; }
+  body { font: x-small sans-serif; background: url("data:image/jpeg;base64,=
+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
+ICUUUUcgLyWWoCUUcgKIUUUlFJRRSUvKxlK7BRQKlFFAUFigBSCgJS0CKBSUKgUUCgAABISog5T=
+3bjKoaiYlUkJSezFFFJMNYQ2AAAAAAAAAUFAAAACKhRRRRRRRSUUapqmqalFqtJUGrOhqk4mqUt=
+Jqampqa/RqapquqRhbcdOIbqoSWMoZnG01aiZjs3GftdoO6lFFFFFFFFJRRRRRytyX9LwVBqmpq=
+UclytrcHACgBSUqKJRRQALZYAFFABQBSUUUlFFHK2XClAAAFABCoUAAAABQAFACoFAqKAhl2c6K=
+XHu6AiZdkpKWkprGFopRFSlAEUAARQAAABFEVAAAKKKKKKAKKTU1TU1KkAoqDWDWE1NTU0NTQ1N=
+V1gqFSWZTWzU1NTU1KWpOVv6WxSiiiiiikoooooooXkDgoopKWjkF4ABRAoACgABQBAUAEKKKKS=
+iilLAoAFBBQAAAAAARQAQUAAAEyZoopfLVgkpRQUsKAAAAAAAAAAAAAFAUUUUUUUUUUUUAAAUUU=
+mpRRRQFFFFFAJRRqUUUUUUUUUUampRSgBRRRRRRRRRRRRRQKBRSUUUoAABRQAUAFAAAFFABRRRR=
+QFFFAFFFAUUAUACoUUFAABQAUAAUAoIqSlFFFLEKgUUUUAAoAioqCoKICiCgAAAAAAAAAAAAAAA=
+IogKAAAAIoAigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAD//Z") 0px 0px no-repeat rgb(249, 249, 249); color: black; margin: 0px;=
+ padding: 0px; direction: ltr; unicode-bidi: embed; }
+  div#globalWrapper { font-size: 127%; width: 100%; margin: 0px; padding: 0=
+px; position: relative; z-index: 0; }
+  a { color: rgb(0, 43, 184); }
+  a:visited { color: rgb(90, 54, 150); }
+  a.new, #p-personal a.new { color: rgb(204, 34, 0); }
+  ul { list-style-type: square; list-style-image: url("data:image/gif;base6=
+4,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=3D");=
+ }
+  pre, .mw-code { line-height: 1.1em; }
+  #firstHeading { padding-top: 0px; overflow: visible; }
+  .mw-indicators { float: right; line-height: 1.5em; font-size: 95%; }
+  .mw-indicator { display: inline-block; zoom: 1; }
+  #siteNotice { font-size: 95%; padding: 0px 0.9em; }
+  #localNotice { margin: 0px; }
+  #siteNotice p { margin: 0px; padding: 0px; }
+  table.rimage { float: right; position: relative; margin-left: 1em; margin=
+-bottom: 1em; text-align: center; }
+  .special li { line-height: 1.4em; margin: 0px; padding: 0px; }
+  .portlet { border: none; margin: 0px 0px 0.5em; padding: 0px; float: none=
+; width: 11.6em; overflow: hidden; }
+  .portlet h3 { background: transparent; padding: 0px 1em 0px 0.5em; displa=
+y: inline; height: 1em; text-transform: lowercase; font-size: 91%; font-wei=
+ght: normal; white-space: nowrap; }
+  .pBody { font-size: 95%; background-color: white; color: black; border-co=
+llapse: collapse; border: 1px solid rgb(170, 170, 170); padding: 0px 0.8em =
+0.3em 0.5em; }
+  .pBody::after { content: ""; clear: both; display: block; }
+  .portlet ul { line-height: 1.5em; font-size: 95%; }
+  .portlet li { padding: 0px; margin: 0px; }
+  #p-logo { top: 0px; left: 0px; position: absolute; z-index: 3; height: 15=
+5px; width: 12em; overflow: visible; }
+  #p-logo h3 { display: none; }
+  #p-logo a, #p-logo a:hover { display: block; height: 155px; width: 12.2em=
+; background-repeat: no-repeat; text-decoration: none; background-position:=
+ 35% 50% !important; }
+  #p-search { position: relative; z-index: 3; }
+  input.searchButton { margin-top: 1px; font-size: 95%; }
+  #searchGoButton { padding-left: 0.5em; padding-right: 0.5em; font-weight:=
+ bold; }
+  #searchInput { width: 10.9em; margin: 0px; font-size: 95%; }
+  #p-search .pBody { padding: 0.5em 0.4em 0.4em; text-align: center; }
+  #p-search #searchform div div { margin-top: 0.4em; font-size: 95%; }
+  #p-personal { position: absolute; left: 0px; top: 0px; z-index: 3; }
+  #p-personal { width: 100%; white-space: nowrap; padding: 0px; margin: 0px=
+; border: none; background: none; overflow: visible; line-height: 1.2em; }
+  #p-personal h3 { display: none; }
+  #p-personal .portlet, #p-personal .pBody { z-index: 0; padding: 0px; marg=
+in: 0px; border: none; overflow: visible; background: none; }
+  #p-personal ul { border: none; line-height: 1.4em; color: rgb(47, 111, 17=
+1); padding: 0px 2em 0px 14em; margin: 0px; text-align: right; list-style-t=
+ype: none; list-style-image: none; z-index: 0; background: none; cursor: de=
+fault; }
+  #p-personal li { z-index: 0; border: none; padding: 0px; display: inline;=
+ color: rgb(47, 111, 171); margin-left: 1em; line-height: 1.2em; background=
+: none; }
+  #p-personal li a { text-decoration: none; color: rgb(0, 88, 150); padding=
+-bottom: 0.2em; }
+  #p-personal li a:hover { background-color: white; text-decoration: none; =
+}
+  #p-personal li.active a:hover { background-color: transparent; }
+  li#pt-userpage, li#pt-anonuserpage, li#pt-login { background: url("data:i=
+mage/gif;base64,R0lGODlhEAAQAKU5AFtJMlpJNFxIMU5OTm2XH3aIVJNkK5FmMJZnPbt6NIZ=
+zXId0XpVwQZRzR5p7VI1+baZ3Tdl+Kt1/LIO2JYe5K4q8M4idYZKBbJK/QLqddZfDR5rFTZ/HVq=
+fMZanNacKVWuKVQ+ejVuelVu21bPC/e5+XjKOjo7rXhr3aiM+1kNi4icffm8rio83jqNHmrtXot=
+OPEl/HDg/LKjvfaq/ngut3Z1Nvrwd/tx/vqz////////////////////////////yH5BAEAAD8A=
+LAAAAAAQABAAAAZiwJ9wSCwafxfF5VhUNBgHAVO4cKRgHwNg+sjQZrFEYFpSyUihyGD6M4lAEgR=
+bCKnPTaYRjjRYH00vLAUkFhoVfkQmNy4rJxYcGBQTiEImNi0TKB0bHgSTRX2hon1zpaanP0EAOw=
+=3D=3D") left top no-repeat; padding-left: 20px; }
+  #p-personal ul { text-transform: lowercase; }
+  li#pt-userpage { text-transform: none; }
+  li#pt-anonuserpage { color: rgb(112, 112, 112); }
+  #p-personal li.active { font-weight: bold; }
+  #p-cactions { position: absolute; top: 1.3em; left: 11.5em; margin: 0px; =
+white-space: nowrap; width: 76%; line-height: 1.1em; overflow: visible; bac=
+kground: none; border-collapse: collapse; padding-left: 1em; font-size: 95%=
+; }
+  #p-cactions ul { list-style-type: none; list-style-image: none; }
+  #p-cactions li { display: inline; border-top: 1px solid rgb(170, 170, 170=
+); border-right: 1px solid rgb(170, 170, 170); border-left: 1px solid rgb(1=
+70, 170, 170); border-image: initial; border-bottom: none; padding: 0px 0px=
+ 1em; margin: 0px 0.3em 0px 0px; overflow: visible; background: white; }
+  #p-cactions li.selected { border-color: rgb(250, 189, 35); font-weight: b=
+old; }
+  #p-cactions li a { background-color: rgb(251, 251, 251); color: rgb(0, 43=
+, 184); border: none; padding: 0px 0.8em 0.3em; position: relative; z-index=
+: 0; margin: 0px; text-decoration: none; }
+  #p-cactions li.selected a { z-index: 3; background-color: white; }
+  #p-cactions .new a { color: rgb(186, 0, 0); }
+  #p-cactions li a:hover { z-index: 3; text-decoration: none; background-co=
+lor: white; }
+  #p-cactions h3 { display: none; }
+  #p-cactions li.istalk { margin-right: 0px; }
+  #p-cactions li.istalk a { padding-right: 0.5em; }
+  #p-cactions #ca-addsection a { padding-left: 0.4em; padding-right: 0.4em;=
+ }
+  li#ca-talk { margin-right: 1.6em; }
+  li#ca-watch, li#ca-unwatch, li#ca-varlang-0, li#ca-print { margin-left: 1=
+.6em; }
+  #p-cactions .pBody { font-size: 1em; background-color: transparent; color=
+: inherit; border-collapse: inherit; border: 0px; padding: 0px; }
+  #p-cactions li a { text-transform: lowercase; }
+  #p-lang { position: relative; z-index: 3; }
+  .capitalize-all-nouns .portlet h3, .capitalize-all-nouns #p-personal ul, =
+.capitalize-all-nouns #p-cactions ul li a { text-transform: none; }
+  #t-ispermalink, #t-iscite { color: rgb(153, 153, 153); }
+  div#footer { background-color: white; border-top: 1px solid rgb(250, 189,=
+ 35); border-bottom: 1px solid rgb(250, 189, 35); margin: 0.6em 0px 1em; ov=
+erflow: hidden; padding: 0.4em 0px 0.3em; text-align: center; font-size: 90=
+%; }
+  div#footer li { display: inline; margin: 0px 1.3em; }
+  #f-poweredbyico, #f-copyrightico { margin: 0px 8px; position: relative; t=
+op: -2px; }
+  #f-poweredbyico { float: right; height: 1%; }
+  #f-copyrightico { float: left; height: 1%; }
+  #userloginprompt, #languagelinks { font-size: 85%; }
+  #login-sectiontip { font-size: 85%; line-height: 1.2; padding-top: 2em; }
+  #userloginlink a, #wpLoginattempt, #wpCreateaccount { font-weight: bold; =
+}
+  #pagehistory li.selected { position: relative; }
+  .redirectText { font-size: 150%; margin: 5px; }
+  div.patrollink { clear: both; }
+  .sharedUploadNotice { font-style: italic; }
+  span.updatedmarker { color: black; background-color: rgb(0, 255, 0); }
+  .editExternally { border: 1px solid gray; background-color: rgb(255, 255,=
+ 255); padding: 3px; margin-top: 0.5em; float: left; font-size: small; text=
+-align: center; }
+  .editExternallyHelp { font-style: italic; color: gray; }
+  .toggle { margin-left: 2em; text-indent: -2em; }
+  input#wpSave, input#wpDiff { margin-right: 0.33em; }
+  #wpSave { font-weight: bold; }
+  div.noarticletext { border: 1px solid rgb(204, 204, 204); background: rgb=
+(255, 255, 255); padding: 0.2em 1em; color: rgb(0, 0, 0); }
+  div#searchTargetContainer { left: 10px; top: 10px; width: 90%; background=
+: white; }
+  div#searchTarget { padding: 3px; margin: 5px; background: rgb(240, 240, 2=
+40); border: 1px solid blue; }
+  div#searchTarget ul li { list-style-type: none; list-style-image: none; }
+  div#searchTarget ul li::before { color: orange; content: "=C2=BB "; }
+  div#searchTargetHide { float: right; border: 1px solid black; background:=
+ rgb(220, 220, 220); padding: 2px; }
+  #powersearch p { margin-top: 0px; }
+  div.multipageimagenavbox { border: 1px solid silver; padding: 4px; margin=
+: 1em; background: rgb(240, 240, 240); }
+  div.multipageimagenavbox div.thumb { border: none; margin-left: 2em; marg=
+in-right: 2em; }
+  div.multipageimagenavbox hr { margin: 6px; }
+  table.multipageimage td { text-align: center; }
+  .templatesUsed { margin-top: 1.5em; }
+  .mw-summary-preview { margin: 0.1em 0px; }
+  div.mw-lag-warn-normal, div.mw-lag-warn-high { padding: 3px; text-align: =
+center; margin: 3px auto; }
+  div.mw-lag-warn-normal { border: 1px solid rgb(255, 204, 102); background=
+-color: rgb(255, 255, 204); }
+  div.mw-lag-warn-high { font-weight: bold; border: 2px solid rgb(255, 0, 5=
+1); background-color: rgb(255, 204, 204); }
+  .MediaTransformError { background-color: rgb(204, 204, 204); padding: 0.1=
+em; }
+  .MediaTransformError td { text-align: center; vertical-align: middle; fon=
+t-size: 90%; }
+  .no-text-transform { text-transform: none; }
+  .tipsy { font-size: 127%; }
+  .skin-monobook .mw-notification { box-shadow: rgba(0, 0, 0, 0.125) 0px 2p=
+x 5px 0px; }
+}
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://wiki.openssl.org/images/openssl-logo-135.png?5d667
+
+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
+
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://wiki.openssl.org/resources/assets/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAANaElEQVR4Ae2YBVAbW7jHc60uUOh1
+d3d3d3d34/qtUnd3V+rFXUpTgoUQ4sQ9hIQQJw7U/+/seXd2hqGdW3taMvOf/eSc79v9rZ0Nh/nZ
+bLbLiLKJXEQ4LfXJRVkSphSu1Wq9iagjFArh4MGDOHr0aJ9OXZQhw5JhSnQrAzgvHA7T5OHDh09f
+faIsI5EIA7mQARw5dOgQ+nTmRdjGORaLBUeOHDnlIgcPJFjb7ahi7QMHus5muJQpw5YFTJ4dpySH
+ZQ26OsNo5k+GuiaJxrzW1WizZoEdd6Cbbs8mnTHAIu6rMGsmQ1n/PYLqFMRCFlhlwwh0L7oSfnQF
+NrNjEzHX2QfYbDafFmBV/c1wG0bCUJ2EgDIJLuUV0DUMgN0wHw4CPOjRwd8qhkX8OIKWSYgGzSdU
+9/EFxfhmWw2mFEnZWDjR9a/zQvHOY8Y7esYR6+yGP5rA2DwhG3MEInh6cSk+2chDptB62oAJWwqY
+vvkOHDhwQuru7kS3fxvr6ySXwWtKRaB5OPySIXCJB8AkHIK4bSgcijsI5KWIOy8FEqnoMN5xwn2+
+yKjG/v0H8PKKcgjNbny7pQ7fbq9GpsCGjFoTVE4fNvG1sLhDWLFHj0ZzO8blN2FUbiNWVathdAfx
+1upK1BrasHhvM0blNSA9S4GOSDcyBDp8S07e55t5eGtNJdhjcQVIvBY5Igt+3i7AwkoyPpYA39iO
+1TVqOuYERZlSwCaTiXHIwezvoRe+WUG1cFM1gdqNvAo5rnp4JnbtlmH6rHcRN6bAbciFXvAGvNoh
+CEkGIcI/D+31F6Bd0B/B5gEImUcg0Z6KqC8F3pa7kVMuwE23roJQ1gJfIILFGftwzztz8cfsnF79
+75qRhx931GF9nQa/7uaDq3YgmujEZ2R/5pUpMblAgheXVWBWmRQT8kXUf3ftXqyv1eChuUWYXipB
+2q56lCla8Mj8Ihp/bVUFftheR2uECLgmSzszh+1p8XTgqUUl+HprDWYUy7CMq0KO0IbxeU3gaR10
+zAmKMiVsjw/43Ft+wzOfL2H9hRvzMPD2NAY29Wt33wWnJgleyUUICDnoFpyDo3UcRIki1UQSYhsG
+Itiago7ARXBp/kKbORuzFj4DnTaXrZv68Dg8+MGCXv3fJFefLxyj9o8761CrdaGL9P5gPRcKmx+P
+zivGzBI53e5qMmLRXgW+3FKNrCYz/tzVRE6MGjNKpQSME88uLUGW2ITx+UIs3deMDzfuRaKrC812
+H95cVcn21Dj9+IbAZeC/vroCelcAzy4qx0/b+TR/SoCNRiNdVhBwPTTs/tF49cvV1I5HHTDKn8fB
+wDVAdzK62u6BRfA0jOXnw111Dpzl/eHO6gfXzhQ4diYhUDQQB8Tno7P5fHRYhiOgHwGvZigQ4aCJ
+m4wqfiPb55rnpuD5b1b06j+pUMTaSrsfn2dU4WsCcD1PT2OrqpUUyKLKZhgIiHZvAr9nNuD33Q1Y
+ylVCYnNjWZUS8c4uTCuW4I8sPkbnNMIfiWFDnQbfba1l6pF4A9unLRDGO+SK/m57DbbxjTT2HDk5
+GfW058mIMmXYHh/wfX/jlS83sH52cRMefeVj6LmPwModgrAgCYcb+mN/XT80LrwQ0hmXQjE9BdJx
+wyCddxVMWy9CovoCJOT94ZH0h1MxDGr5eHBGjkXJHg1b9+pnJ+O5r5f/6w4nCChvKPqv49wdkROK
+k7uDwO88Zp84EWMHI3H8uL0OAbI9ZcAGg4E6XV1dPTT0vlF4+eM11O70VEAsvBebNj2KgPkhxFtS
+0akfisOqC+DZPQK6aUmo/7UfCr8fjsq0oRD93h/imRciWD4A3c3noEPfD07lk3C2ivDON6+gvEbK
+9vkHMLX/F4rAjZ3KPMqUsD0+4CH3jcXLXy+ldiTkRn7eWHRYUpFwEnCOG+A3XYq4aDi0C1MhTR+E
+Hb8nIWNqCjLSU1CQlgL5qCHoKBiOmPR8tEqS4FBeDo1oCl785GUUcRX/CvjZxaWYViLuEVtbq8Iz
+i0tgdgdO+EB52lZMLhJB3uLGzzvrjj9O7UTaLjaPFVwVtgo11O7s7ELaznos5yppLa3Th99283vM
+31inwYSCpt6A9Xo9s24jRTp7aCh5RLz81QbWLymvwvj0p+CSfY2g9FoklCNgr0hF7V9JqB2VhLXp
+yZg5rh/WTU9G8eiRUE8ZBFdWMg7qzkdA9Q5bhzNoMvL2yFifAv5qea/+g3/LwJXjd8EdDFM/Fk/Q
+lcV5P2+E2OJixyntHrT6OnrN17f54PSHkCs2kZNSCos7wEBg875QBBqHj62tdnhxydgdbK27pxXg
+haVl//Tw4poJu1Grd2C30IA6sr1zRi5byxOMYJ/ajl1CAxtjmDJsWcCJRKKHKOCv17D+lq0S3Pf6
+V4jZX0PCkYyYbhAOS/tDMWU4+H8mY9voi7Hkz4HI/CUFDWn9IZk2Es6c4YjKBsCn64eo4RrYrDJw
+hk5A6T4lW/eq/wTcq/9Dcwvw5IJirK9TUZ+ndJLlViGeWFgEiaUdjvYonlpQipunZuGGyVmYUSSl
+49yBCF5ZUYbrJmXijum5ZNlVjA/Xc+lJ+TKDR8fsFOgpsJunZJMeJXh0PlPTRexS5EvMCISjJJeD
++2YV0PErqhR0Tc03OMhLlA+B0YmH59McPltbh/VVemTU6fBXFp/dfxawTqc7PuCP1lM7FvWDW/Ij
+AroUdLcmwyNORVRAVgq6ZHTyhkKVPhD70oah5LdkcL8biqq0wVAsHQFX6QC0NxHAhkFoUw2BS3Mj
+Zi68DRbjarbPlU9OOSbgB+YUYDm3maxdy6j//SY+WfOK8fLyMshtbny8jofvt9QjEotD6/Ti6vRM
+8FQO/LxVgBcWV6DFE4Sm1YtbJxbg7TV7UK2148mFxTC0+ZH8x3ZkCkxoD4Swcq8GnB82kprtmFYs
+wqisRlSrHfhww16yoqiE1uHDpxursIanRrnCileWl0NoasPzS0uxZp8G908rofswuagJb6za0wMw
+w5aj1Wrpl0c8Hu8h8pKjgKnvqQav8EHMnfcAXNJL4BLfiXDzRQirrkS3dSQ6qwejbU0/KAlowajB
+0K8Yhu66ZMTlydAXDoeePxjdbcNhNYnAufw35FfWsn2ufGYynv1qWa/+t07NITB8uHdWHmSWdtwz
+vQA6hxdPLypBpdKGK9N34qVl5eTK2oP3yNLqqvTd+HFHDe6dnYsmUxtbJ1NooAdeQwC/sqIca3n0
+Od6jF7lbaL7J5MILBNyEfCGW71ViSr4Y8ytkeHx+MUwuHwqkJlpLanXh8vE7cPGYHdDaArTGlCIh
+3llTydZkmDJsORqN5piAz7n1T7z6/RLW35K5Dve8+gHarVVImO+CveZiRM3XIGy4Ct2KwYB5EOz7
+boCr4nJ0VQ1ArGkYIsZL0GFKhZY7Asb6+2GUzwbn+lHILZWydS97cgIe+Whhr/7MbR+NxZC2ox4P
+zy4mB1YBCmNeAao1dpLPxOwyCYpkZhTLLORqV4CnbcHtM7NQJreydVaRK/R1MpcAJFd/OXYIdLh7
+Vk6PXrdNywFXZUMsFscjcwtpb7HZhXJ5C66dtBsvLimj43JE9GRBZG7D/bMK8epiLibsUhwXMMOW
+o1arqROLxXrorrdm495352Hehj2IRKLYkSlD/0vTIeM9iIqCzxBUXoyY5QrETRchpEhBtz0Zzqan
+EHXejlBjfzh5QxGxXwGn/EokPCmAfzAKi1fjopvmYm+dFi63H/NJ7SufmYTPxmT06n8JuTp8wTCq
+VHZwftyALTV6Gr95aia9oqdlqfDgvDxUqVuwhqfErZPzYHcHsbBYhavG5iBPbMSWOh2Gpe3CqyvL
+sU9tw4Nz8+EOhHDd+Bz8vL0eFQorvtzMo/VJHVr/w7VVOC9tA0KRKFo8AZobldVAczsFOvpo4Otb
+CeACtLgDuHTCFuTUt2BagYR5fLH7zzAlbClg+mkXjUaPqdY2L2tbjYXwOGRQSzLgUd0Fb/PlUAk+
+h1t9DbpdydA3joFXeSOc9YNgEyTBrx+JgO06WJtXIWhNhUszBGZdde/avUU+T2sJjA50hCP4dWc9
+Wj0BGv8rkw+t3UNPenq+gFlpENC5KBM62LlzS2S4fQZ5gS0qwvRiERbtkUFhc2F8fgPNKw1BvLG2
+FLdMycbvu/hE9ZBY2miuRGbCmKxGxqY9vt9ag1qtnfrMdmaJGBq7G6Nz+TRWKXQjbWsDNtdosaBC
+yu4Dw5QCVqlULOATlVo4CV6XGgbhx9T36q9Gh20w/G4bmqvugbx8GFS8gTDxX0O87WK0mUsRCnpg
+1+Whw2elc/6fizJl2HKUSiV1IpHIyYjAFMNu4VHb0nQ3bNJh1LbppsIoGQJd0x/wWDNhU2+Gz3op
+zZ1FokwZthyFQsECPlWp5J9BKZ3L+kLuC/AH2mHQr6e+WZUJn8dw1gFm2HLkcjn9cyIcDp859Yky
+ZdhyZDJZH+D/IsAMW05jY2OEfHnQYCgUOn31ibJk/o8gbOMcHo9X2NLSQomTZ0cfoNMUYUhZMkwZ
+tpzS0tJbiTr0ej1dXpBkn05dlCHDkmHKsOUwv+zs7MuI8og8RDgt9clDWRKmDNv/AKBCZq78CfnF
+AAAAAElFTkSuQmCC
+
+------MultipartBoundary--Bv0Mode6s27U5eV4fydpHzHB12Sr6Z2aRUXz0fkQMj------

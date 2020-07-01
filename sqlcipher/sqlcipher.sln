@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlcipher", "sqlcipher\sqlcipher.vcxproj", "{E867C88D-22D9-4010-A873-12FC0DDF9824}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLCipherViewer", "SQLCipherViewer\SQLCipherViewer.vcxproj", "{4AED346A-F364-437D-A099-665FFEF7D1AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E867C88D-22D9-4010-A873-12FC0DDF9824} = {E867C88D-22D9-4010-A873-12FC0DDF9824}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlcipher_console", "sqlcipher_console\sqlcipher_console.vcxproj", "{7E143C8F-B277-403C-B5E2-90726A06A03A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLCipherTest", "SQLCipherTest\SQLCipherTest.vcxproj", "{B5917991-C005-4DA0-9A37-532D51D4D812}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E867C88D-22D9-4010-A873-12FC0DDF9824} = {E867C88D-22D9-4010-A873-12FC0DDF9824}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Debug|Win32.Build.0 = Debug|Win32
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Debug|x64.ActiveCfg = Debug|x64
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Debug|x64.Build.0 = Debug|x64
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Release|Win32.ActiveCfg = Release|Win32
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Release|Win32.Build.0 = Release|Win32
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Release|x64.ActiveCfg = Release|x64
+		{E867C88D-22D9-4010-A873-12FC0DDF9824}.Release|x64.Build.0 = Release|x64
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Debug|Win32.Build.0 = Debug|Win32
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Debug|x64.ActiveCfg = Debug|x64
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Debug|x64.Build.0 = Debug|x64
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Release|Win32.ActiveCfg = Release|Win32
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Release|Win32.Build.0 = Release|Win32
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Release|x64.ActiveCfg = Release|x64
+		{4AED346A-F364-437D-A099-665FFEF7D1AA}.Release|x64.Build.0 = Release|x64
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Debug|Win32.Build.0 = Debug|Win32
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Debug|x64.ActiveCfg = Debug|x64
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Debug|x64.Build.0 = Debug|x64
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Release|Win32.ActiveCfg = Release|Win32
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Release|Win32.Build.0 = Release|Win32
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Release|x64.ActiveCfg = Release|x64
+		{7E143C8F-B277-403C-B5E2-90726A06A03A}.Release|x64.Build.0 = Release|x64
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Debug|Win32.Build.0 = Debug|Win32
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Debug|x64.ActiveCfg = Debug|x64
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Debug|x64.Build.0 = Debug|x64
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Release|Win32.ActiveCfg = Release|Win32
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Release|Win32.Build.0 = Release|Win32
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Release|x64.ActiveCfg = Release|x64
+		{B5917991-C005-4DA0-9A37-532D51D4D812}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
